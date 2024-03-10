@@ -1,0 +1,1 @@
+set allSynthModules {divide_freq.MOD contador.MOD descodificador_bin2hexII.MOD chefe.MOD}

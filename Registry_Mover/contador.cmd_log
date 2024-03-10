@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn __projnav/contador.xst -ofn contador.syr
+ngdbuild -intstyle ise -dd f:\pen\fcul\ins\registo_desloc_prog/_ngo -i  -p xc2s200-pq208-6 contador.ngc contador.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o contador_map.ncd contador.ngd contador.pcf
+par -w -intstyle ise -ol std -t 1 contador_map.ncd contador.ncd contador.pcf
+trce -intstyle ise -e 3 -l 3 -xml contador contador.ncd -o contador.twr contador.pcf

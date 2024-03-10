@@ -1,0 +1,22 @@
+Release 6.3.01i - ngdbuild G.36
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+f:\pen\fcul\ins\registo_desloc_prog/_ngo -i -p xc2s200-pq208-5 chefe.ngc
+chefe.ngd 
+
+Reading NGO file "F:/PEN/FCUL/INS/registo_desloc_prog/chefe.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37312 kilobytes
+
+Writing NGD file "chefe.ngd" ...
+
+Writing NGDBUILD log file "chefe.bld"...

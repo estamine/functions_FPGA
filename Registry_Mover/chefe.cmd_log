@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn __projnav/chefe.xst -ofn chefe.syr
+xst -intstyle ise -ifn __projnav/chefe.xst -ofn chefe.syr
+xst -intstyle ise -ifn __projnav/chefe.xst -ofn chefe.syr
+ngdbuild -intstyle ise -dd f:\pen\fcul\ins\registo_desloc_prog/_ngo -i  -p xc2s200-pq208-5 chefe.ngc chefe.ngd
+map -intstyle ise -p xc2s200-pq208-5 -cm area -pr b -k 4 -c 100 -tx off -o chefe_map.ncd chefe.ngd chefe.pcf
+par -w -intstyle ise -ol std -t 1 chefe_map.ncd chefe.ncd chefe.pcf
+trce -intstyle ise -e 3 -l 3 -xml chefe chefe.ncd -o chefe.twr chefe.pcf
+bitgen -intstyle ise -f chefe.ut chefe.ncd

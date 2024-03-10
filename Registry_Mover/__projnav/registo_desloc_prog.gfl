@@ -1,0 +1,154 @@
+# XST (Creating Lso File) : 
+chefe.lso
+# Check Syntax
+chefe.stx
+# xst flow : RunXST
+chefe.syr
+chefe.prj
+chefe.sprj
+chefe.ana
+chefe.stx
+chefe.cmd_log
+# XST (Creating Lso File) : 
+contador.lso
+# xst flow : RunXST
+contador.syr
+contador.prj
+contador.sprj
+contador.ana
+contador.stx
+contador.cmd_log
+contador.ngc
+contador.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+f:\pen\fcul\ins\registo_desloc_prog/_ngo
+contador.ngd
+contador_ngdbuild.nav
+contador.bld
+.untf
+contador.cmd_log
+# Implementation : Map
+contador_map.ncd
+contador.ngm
+contador.pcf
+contador.nc1
+contador.mrp
+contador_map.mrp
+contador.mdf
+__projnav/map.log
+contador.cmd_log
+MAP_NO_GUIDE_FILE_CPF "contador"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+contador.twr
+contador.twx
+contador.tsi
+contador.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+contador.ncd
+contador.par
+contador.pad
+contador_pad.txt
+contador_pad.csv
+contador.pad_txt
+contador.dly
+reportgen.log
+contador.xpi
+contador.grf
+contador.itr
+contador_last_par.ncd
+__projnav/par.log
+contador.placed_ncd_tracker
+contador.routed_ncd_tracker
+contador.cmd_log
+PAR_NO_GUIDE_FILE_CPF "contador"
+# XST (Creating Lso File) : 
+chefe.lso
+# xst flow : RunXST
+chefe.syr
+chefe.prj
+chefe.sprj
+chefe.ana
+chefe.stx
+chefe.cmd_log
+contador.ngc
+contador.ngr
+# XST (Creating Lso File) : 
+chefe.lso
+# xst flow : RunXST
+chefe.syr
+chefe.prj
+chefe.sprj
+chefe.ana
+chefe.stx
+chefe.cmd_log
+contador.ngc
+chefe.ngc
+contador.ngr
+chefe.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+f:\pen\fcul\ins\registo_desloc_prog/_ngo
+chefe.ngd
+chefe_ngdbuild.nav
+chefe.bld
+.untf
+chefe.cmd_log
+# Implementation : Map
+chefe_map.ncd
+chefe.ngm
+chefe.pcf
+chefe.nc1
+chefe.mrp
+chefe_map.mrp
+chefe.mdf
+__projnav/map.log
+chefe.cmd_log
+MAP_NO_GUIDE_FILE_CPF "chefe"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+chefe.twr
+chefe.twx
+chefe.tsi
+chefe.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+chefe.ncd
+chefe.par
+chefe.pad
+chefe_pad.txt
+chefe_pad.csv
+chefe.pad_txt
+chefe.dly
+reportgen.log
+chefe.xpi
+chefe.grf
+chefe.itr
+chefe_last_par.ncd
+__projnav/par.log
+chefe.placed_ncd_tracker
+chefe.routed_ncd_tracker
+chefe.cmd_log
+PAR_NO_GUIDE_FILE_CPF "chefe"
+# Generate Programming File
+__projnav/chefe_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+chefe.ut
+# Generate Programming File
+chefe.bgn
+chefe.rbt
+chefe.ll
+chefe.msk
+chefe.drc
+chefe.nky
+chefe.bit
+chefe.bin
+chefe.isc
+chefe.cmd_log

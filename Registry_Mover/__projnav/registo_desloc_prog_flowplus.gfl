@@ -1,0 +1,29 @@
+# XST flow : Creating project file
+chefe.prj
+# xst flow : Check Syntax
+chefe.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/chefe.xst
+xst
+# xst flow : RunXST
+chefe.prj
+__projnav/chefe.xst
+./xst
+# XST flow : Creating project file
+contador.prj
+# xst flow : RunXST
+contador.prj
+__projnav/contador.xst
+./xst
+# XST flow : Creating project file
+chefe.prj
+# xst flow : RunXST
+chefe.prj
+__projnav/chefe.xst
+./xst
+# XST flow : Creating project file
+chefe.prj
+# xst flow : RunXST
+chefe.prj
+__projnav/chefe.xst
+./xst

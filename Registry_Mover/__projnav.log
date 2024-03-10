@@ -1,0 +1,834 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+Module <divide_freq> compiled
+Compiling source file "contador.v"
+Module <contador> compiled
+Compiling source file "descodificador_bin2hexII.v"
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 11 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 14 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 17 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 20 Too many digits specified in binary constant
+Module <descodificador_bin2hexII> compiled
+Compiling source file "chefe.v"
+Module <chefe> compiled
+No errors in compilation
+Analysis of file <chefe.prj> succeeded.
+ 
+Completed process "Check Syntax".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+Module <divide_freq> compiled
+Compiling source file "contador.v"
+Module <contador> compiled
+Compiling source file "descodificador_bin2hexII.v"
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 11 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 14 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 17 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - descodificador_bin2hexII.v line 20 Too many digits specified in binary constant
+Module <descodificador_bin2hexII> compiled
+Compiling source file "chefe.v"
+Module <chefe> compiled
+No errors in compilation
+Analysis of file <chefe.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - chefe.v line 10 Connection to output port 'bina' does not match port size
+WARNING:HDLCompilers:259 - chefe.v line 11 Connection to input port 'bina' does not match port size
+ERROR:HDLCompilers:246 - chefe.v line 11 Reference to vector reg 'hexa' is not a legal net lvalue
+ERROR:HDLCompilers:102 - chefe.v line 11 Connection to output port 'hexa' must be a net lvalue
+--> 
+
+Total memory usage is 49648 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "contador.v"
+Module <contador> compiled
+No errors in compilation
+Analysis of file <contador.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <contador>.
+Module <contador> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <contador>.
+    Related source file is contador.v.
+    Found 4-bit updown counter for signal <bina>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 1
+ 4-bit updown counter              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <contador> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block contador, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       3  out of   2352     0%  
+ Number of Slice Flip Flops:             4  out of   4704     0%  
+ Number of 4 input LUTs:                 5  out of   4704     0%  
+ Number of bonded IOBs:                  6  out of    144     4%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clko                               | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 4.712ns (Maximum Frequency: 212.224MHz)
+   Minimum input arrival time before clock: 5.181ns
+   Maximum output required time after clock: 6.959ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+f:\pen\fcul\ins\registo_desloc_prog/_ngo -i -p xc2s200-pq208-6 contador.ngc
+contador.ngd 
+
+Reading NGO file "F:/PEN/FCUL/INS/registo_desloc_prog/contador.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37312 kilobytes
+
+Writing NGD file "contador.ngd" ...
+
+Writing NGDBUILD log file "contador.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+  Number of Slice Flip Flops:         4 out of  4,704    1%
+  Number of 4 input LUTs:             4 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           2 out of  2,352    1%
+    Number of Slices containing only related logic:      2 out of      2  100%
+    Number of Slices containing unrelated logic:         0 out of      2    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         4 out of  4,704    1%
+   Number of bonded IOBs:             6 out of    140    4%
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+Total equivalent gate count for design:  77
+Additional JTAG gate count for IOBs:  336
+Peak Memory Usage:  61 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "contador_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module contador . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o contador_map.ncd contador.ngd contador.pcf
+Mapping Module contador: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: contador.pcf
+
+Loading device database for application Par from file "contador_map.ncd".
+   "contador" is an NCD, version 2.38, device xc2s200, package pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2004-06-25.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs             6 out of 140     4%
+      Number of LOCed External IOBs    0 out of 6       0%
+
+   Number of SLICEs                    2 out of 2352    1%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896a3) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98a9d5) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file contador.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 21 unrouted;       REAL time: 2 secs 
+
+Phase 2: 19 unrouted;       REAL time: 2 secs 
+
+Phase 3: 0 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|        clko_BUFGP          |  Global  |    4   |  0.000     |  0.526      |
++----------------------------+----------+--------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 4 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  51 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file contador.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Sun Mar 04 09:44:15 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module contador . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 contador_map.ncd contador.ncd contador.pcf
+PAR completed successfully
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+Module <divide_freq> compiled
+Compiling source file "contador.v"
+Module <contador> compiled
+Compiling source file "descodificador_bin2hexII.v"
+Module <descodificador_bin2hexII> compiled
+Compiling source file "chefe.v"
+Module <chefe> compiled
+No errors in compilation
+Analysis of file <chefe.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:246 - chefe.v line 12 Reference to vector reg 'hexa' is not a legal net lvalue
+ERROR:HDLCompilers:102 - chefe.v line 12 Connection to output port 'hexa' must be a net lvalue
+--> 
+
+Total memory usage is 49648 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+Module <divide_freq> compiled
+Compiling source file "contador.v"
+Module <contador> compiled
+Compiling source file "descodificador_bin2hexII.v"
+Module <descodificador_bin2hexII> compiled
+Compiling source file "chefe.v"
+Module <chefe> compiled
+No errors in compilation
+Analysis of file <chefe.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <chefe>.
+Module <chefe> is correct for synthesis.
+ 
+Analyzing module <divide_freq>.
+Module <divide_freq> is correct for synthesis.
+ 
+Analyzing module <contador>.
+Module <contador> is correct for synthesis.
+ 
+Analyzing module <descodificador_bin2hexII>.
+WARNING:Xst:883 - descodificador_bin2hexII.v line 17: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 20: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 23: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 26: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 29: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 32: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 35: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 38: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 41: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 44: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 47: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 50: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 53: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 56: Ignored duplicate item in case statement. 
+Module <descodificador_bin2hexII> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <descodificador_bin2hexII>.
+    Related source file is descodificador_bin2hexII.v.
+Unit <descodificador_bin2hexII> synthesized.
+
+
+Synthesizing Unit <contador>.
+    Related source file is contador.v.
+    Found 4-bit updown counter for signal <bina>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador> synthesized.
+
+
+Synthesizing Unit <divide_freq>.
+    Related source file is divide_freq.v.
+    Found 1-bit register for signal <clko>.
+    Found 25-bit up counter for signal <conta>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <divide_freq> synthesized.
+
+
+Synthesizing Unit <chefe>.
+    Related source file is chefe.v.
+Unit <chefe> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 2
+ 25-bit up counter                 : 1
+ 4-bit updown counter              : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <chefe> ...
+
+Optimizing unit <descodificador_bin2hexII> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block chefe, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-5 
+
+ Number of Slices:                      17  out of   2352     0%  
+ Number of Slice Flip Flops:            30  out of   4704     0%  
+ Number of 4 input LUTs:                33  out of   4704     0%  
+ Number of bonded IOBs:                 10  out of    144     6%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clki                               | BUFGP                  | 26    |
+df_clko:Q                          | NONE                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.282ns (Maximum Frequency: 159.185MHz)
+   Minimum input arrival time before clock: 5.870ns
+   Maximum output required time after clock: 10.702ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+f:\pen\fcul\ins\registo_desloc_prog/_ngo -i -p xc2s200-pq208-5 chefe.ngc
+chefe.ngd 
+
+Reading NGO file "F:/PEN/FCUL/INS/registo_desloc_prog/chefe.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37312 kilobytes
+
+Writing NGD file "chefe.ngd" ...
+
+Writing NGDBUILD log file "chefe.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-5".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:        30 out of  4,704    1%
+  Number of 4 input LUTs:             8 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                          18 out of  2,352    1%
+    Number of Slices containing only related logic:     18 out of     18  100%
+    Number of Slices containing unrelated logic:         0 out of     18    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:           32 out of  4,704    1%
+      Number used as logic:                         8
+      Number used as a route-thru:                 24
+   Number of bonded IOBs:            10 out of    140    7%
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+Total equivalent gate count for design:  453
+Additional JTAG gate count for IOBs:  528
+Peak Memory Usage:  61 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "chefe_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module chefe . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-5 -cm area -pr b -k 4 -c 100 -tx off -o chefe_map.ncd chefe.ngd chefe.pcf
+Mapping Module chefe: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: chefe.pcf
+
+Loading device database for application Par from file "chefe_map.ncd".
+   "chefe" is an NCD, version 2.38, device xc2s200, package pq208, speed -5
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2004-06-25.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs            10 out of 140     7%
+      Number of LOCed External IOBs    0 out of 10      0%
+
+   Number of SLICEs                   18 out of 2352    1%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:9896e5) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:990957) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file chefe.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 89 unrouted;       REAL time: 2 secs 
+
+Phase 2: 72 unrouted;       REAL time: 2 secs 
+
+Phase 3: 2 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|        clki_BUFGP          |  Global  |   14   |  0.093     |  0.743      |
++----------------------------+----------+--------+------------+-------------+
+|           df_clko          |   Local  |    4   |  0.058     |  3.922      |
++----------------------------+----------+--------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 4 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  52 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file chefe.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Sun Mar 04 09:49:31 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module chefe . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 chefe_map.ncd chefe.ncd chefe.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+

@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+Release 6.3.01i Trace G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml chefe chefe.ncd -o
+chefe.twr chefe.pcf
+
+
+Design file:              chefe.ncd
+Physical constraint file: chefe.pcf
+Device,speed:             xc2s200,-5 (PRODUCTION 1.27 2004-06-25)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clki
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clki           |    5.847|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Sun Mar 04 09:49:31 2007
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 49 MB

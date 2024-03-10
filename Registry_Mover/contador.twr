@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------
+Release 6.3.01i Trace G.35
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml contador contador.ncd -o
+contador.twr contador.pcf
+
+
+Design file:              contador.ncd
+Physical constraint file: contador.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2004-06-25)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clko
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+up          |    2.284(R)|   -0.464(R)|clko_BUFGP        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clko to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+bina<0>     |    8.651(R)|clko_BUFGP        |   0.000|
+bina<1>     |    8.679(R)|clko_BUFGP        |   0.000|
+bina<2>     |    8.100(R)|clko_BUFGP        |   0.000|
+bina<3>     |    8.657(R)|clko_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clko
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clko           |    4.408|    2.311|         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Sun Mar 04 09:44:15 2007
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 49 MB

@@ -1,0 +1,4 @@
+MO divide_freq NULL divide_freq.v vlg12/divide_freq.bin
+MO descodificador_bin2hexII NULL descodificador_bin2hexII.v vlg7C/descodificador_bin2hexII.bin
+MO chefe NULL chefe.v vlg3B/chefe.bin
+MO contador NULL contador.v vlg06/contador.bin
