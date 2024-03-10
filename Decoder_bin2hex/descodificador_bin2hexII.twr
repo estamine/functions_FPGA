@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 6.2i Trace G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml descodificador_bin2hexII
+descodificador_bin2hexII.ncd -o descodificador_bin2hexII.twr
+descodificador_bin2hexII.pcf
+
+
+Design file:              descodificador_bin2hexII.ncd
+Physical constraint file: descodificador_bin2hexII.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2003-12-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+bina<0>        |hexa<2>        |   10.582|
+bina<0>        |hexa<3>        |   11.007|
+bina<0>        |hexa<4>        |   12.259|
+bina<0>        |hexa<7>        |   10.217|
+bina<1>        |hexa<0>        |   11.525|
+bina<1>        |hexa<1>        |   10.398|
+bina<1>        |hexa<2>        |   10.584|
+bina<1>        |hexa<3>        |   11.009|
+bina<1>        |hexa<4>        |   12.261|
+bina<1>        |hexa<5>        |   11.966|
+bina<1>        |hexa<6>        |   10.052|
+bina<1>        |hexa<7>        |   10.219|
+bina<2>        |hexa<0>        |   11.624|
+bina<2>        |hexa<1>        |   10.574|
+bina<2>        |hexa<2>        |   10.345|
+bina<2>        |hexa<3>        |   10.770|
+bina<2>        |hexa<4>        |   12.022|
+bina<2>        |hexa<5>        |   12.065|
+bina<2>        |hexa<6>        |   10.151|
+bina<2>        |hexa<7>        |    9.980|
+bina<3>        |hexa<0>        |   12.214|
+bina<3>        |hexa<1>        |   11.008|
+bina<3>        |hexa<2>        |   10.854|
+bina<3>        |hexa<3>        |   11.279|
+bina<3>        |hexa<4>        |   12.531|
+bina<3>        |hexa<5>        |   12.655|
+bina<3>        |hexa<6>        |   10.741|
+bina<3>        |hexa<7>        |   10.489|
+---------------+---------------+---------+
+
+Analysis completed Mon Mar 19 10:20:24 2007
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 45 MB

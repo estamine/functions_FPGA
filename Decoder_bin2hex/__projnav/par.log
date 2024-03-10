@@ -1,0 +1,3 @@
+Place & Route Module descodificador_bin2hexII . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ncd descodificador_bin2hexII.pcf
+PAR completed successfully

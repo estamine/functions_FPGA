@@ -1,0 +1,25 @@
+Release 6.2i - ngdbuild G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hexII.ucf -p
+xc2s200-pq208-6 descodificador_bin2hexII.ngc descodificador_bin2hexII.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hexII.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hexII.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37060 kilobytes
+
+Writing NGD file "descodificador_bin2hexII.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hexII.bld"...

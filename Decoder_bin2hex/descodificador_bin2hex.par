@@ -1,0 +1,127 @@
+Release 6.2i Par G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+ELECTRONICA2::  Mon Mar 19 09:57:11 2007
+
+
+C:/Xilinx/bin/nt/par.exe -w -intstyle ise -ol std -t 1
+descodificador_bin2hex_map.ncd descodificador_bin2hex.ncd
+descodificador_bin2hex.pcf 
+
+
+Constraints file: descodificador_bin2hex.pcf
+
+Loading device database for application Par from file
+"descodificador_bin2hex_map.ncd".
+   "descodificador_bin2hex" is an NCD, version 2.38, device xc2s200, package
+pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-12-13.
+
+
+Resolved that IOB <e> must be placed at site P7.
+Resolved that IOB <f> must be placed at site P181.
+Resolved that IOB <g> must be placed at site P178.
+Resolved that IOB <p> must be placed at site P202.
+Resolved that IOB <b0> must be placed at site P67.
+Resolved that IOB <b1> must be placed at site P70.
+Resolved that IOB <b2> must be placed at site P74.
+Resolved that IOB <b3> must be placed at site P82.
+Resolved that IOB <a> must be placed at site P189.
+Resolved that IOB <b> must be placed at site P193.
+Resolved that IOB <c> must be placed at site P205.
+Resolved that IOB <d> must be placed at site P4.
+
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 140     8%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of SLICEs                    4 out of 2352    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98969f) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:991b81) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file descodificador_bin2hex.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 39 unrouted;       REAL time: 0 secs 
+
+Phase 2: 39 unrouted;       REAL time: 0 secs 
+
+Phase 3: 9 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 409
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        3.544
+   The MAXIMUM PIN DELAY IS:                               4.839
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   2.737
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 5.00  d >= 5.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+           1           5           2          22           9           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  49 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file descodificador_bin2hex.ncd.
+
+
+PAR done.

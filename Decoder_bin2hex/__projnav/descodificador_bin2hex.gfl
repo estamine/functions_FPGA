@@ -1,0 +1,402 @@
+# HDL Converter
+# Compile HDL Simulation Libraries
+compxlib.log
+descodificador_bin2hex.cxl
+# HDL Converter
+# Compile HDL Simulation Libraries
+compxlib.log
+descodificador_bin2hex.cxl
+# XST (Creating Lso File) : 
+descodificador_bin2hexII.lso
+# xst flow : RunXST
+descodificador_bin2hexII.syr
+descodificador_bin2hexII.prj
+descodificador_bin2hexII.sprj
+descodificador_bin2hexII.ana
+descodificador_bin2hexII.stx
+descodificador_bin2hexII.cmd_log
+# XST (Creating Lso File) : 
+descodificador_bin2hexII.lso
+# xst flow : RunXST
+descodificador_bin2hexII.syr
+descodificador_bin2hexII.prj
+descodificador_bin2hexII.sprj
+descodificador_bin2hexII.ana
+descodificador_bin2hexII.stx
+descodificador_bin2hexII.cmd_log
+descodificador_bin2hexII.ngc
+descodificador_bin2hexII.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hexII.ngd
+descodificador_bin2hexII_ngdbuild.nav
+descodificador_bin2hexII.bld
+descodificador_bin2hexII.ucf.untf
+descodificador_bin2hexII.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hexII.ngd
+descodificador_bin2hexII_ngdbuild.nav
+descodificador_bin2hexII.bld
+descodificador_bin2hexII.ucf.untf
+descodificador_bin2hexII.cmd_log
+# Implementation : Map
+descodificador_bin2hexII_map.ncd
+descodificador_bin2hexII.ngm
+descodificador_bin2hexII.pcf
+descodificador_bin2hexII.nc1
+descodificador_bin2hexII.mrp
+descodificador_bin2hexII_map.mrp
+descodificador_bin2hexII.mdf
+__projnav/map.log
+descodificador_bin2hexII.cmd_log
+MAP_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+descodificador_bin2hexII.twr
+descodificador_bin2hexII.twx
+descodificador_bin2hexII.tsi
+descodificador_bin2hexII.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+descodificador_bin2hexII.ncd
+descodificador_bin2hexII.par
+descodificador_bin2hexII.pad
+descodificador_bin2hexII_pad.txt
+descodificador_bin2hexII_pad.csv
+descodificador_bin2hexII.pad_txt
+descodificador_bin2hexII.dly
+reportgen.log
+descodificador_bin2hexII.xpi
+descodificador_bin2hexII.grf
+descodificador_bin2hexII.itr
+descodificador_bin2hexII_last_par.ncd
+__projnav/par.log
+descodificador_bin2hexII.placed_ncd_tracker
+descodificador_bin2hexII.routed_ncd_tracker
+descodificador_bin2hexII.cmd_log
+PAR_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Generate Programming File
+__projnav/descodificador_bin2hexII_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+descodificador_bin2hexII.ut
+# Generate Programming File
+descodificador_bin2hexII.bgn
+descodificador_bin2hexII.rbt
+descodificador_bin2hexII.ll
+descodificador_bin2hexII.msk
+descodificador_bin2hexII.drc
+descodificador_bin2hexII.nky
+descodificador_bin2hexII.bit
+descodificador_bin2hexII.bin
+descodificador_bin2hexII.isc
+descodificador_bin2hexII.cmd_log
+# XST (Creating Lso File) : 
+descodificador_bin2hex.lso
+# xst flow : RunXST
+descodificador_bin2hex.syr
+descodificador_bin2hex.prj
+descodificador_bin2hex.sprj
+descodificador_bin2hex.ana
+descodificador_bin2hex.stx
+descodificador_bin2hex.cmd_log
+# XST (Creating Lso File) : 
+descodificador_bin2hex.lso
+# xst flow : RunXST
+descodificador_bin2hex.syr
+descodificador_bin2hex.prj
+descodificador_bin2hex.sprj
+descodificador_bin2hex.ana
+descodificador_bin2hex.stx
+descodificador_bin2hex.cmd_log
+descodificador_bin2hex.ngc
+descodificador_bin2hex.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hex.ngd
+descodificador_bin2hex_ngdbuild.nav
+descodificador_bin2hex.bld
+descodificador_bin2hex.ucf.untf
+descodificador_bin2hex.cmd_log
+# Implementation : Map
+descodificador_bin2hex_map.ncd
+descodificador_bin2hex.ngm
+descodificador_bin2hex.pcf
+descodificador_bin2hex.nc1
+descodificador_bin2hex.mrp
+descodificador_bin2hex_map.mrp
+descodificador_bin2hex.mdf
+__projnav/map.log
+descodificador_bin2hex.cmd_log
+MAP_NO_GUIDE_FILE_CPF "descodificador_bin2hex"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+descodificador_bin2hex.twr
+descodificador_bin2hex.twx
+descodificador_bin2hex.tsi
+descodificador_bin2hex.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+descodificador_bin2hex.ncd
+descodificador_bin2hex.par
+descodificador_bin2hex.pad
+descodificador_bin2hex_pad.txt
+descodificador_bin2hex_pad.csv
+descodificador_bin2hex.pad_txt
+descodificador_bin2hex.dly
+reportgen.log
+descodificador_bin2hex.xpi
+descodificador_bin2hex.grf
+descodificador_bin2hex.itr
+descodificador_bin2hex_last_par.ncd
+__projnav/par.log
+descodificador_bin2hex.placed_ncd_tracker
+descodificador_bin2hex.routed_ncd_tracker
+descodificador_bin2hex.cmd_log
+PAR_NO_GUIDE_FILE_CPF "descodificador_bin2hex"
+# Generate Programming File
+__projnav/descodificador_bin2hex_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+descodificador_bin2hex.ut
+# Generate Programming File
+descodificador_bin2hex.bgn
+descodificador_bin2hex.rbt
+descodificador_bin2hex.ll
+descodificador_bin2hex.msk
+descodificador_bin2hex.drc
+descodificador_bin2hex.nky
+descodificador_bin2hex.bit
+descodificador_bin2hex.bin
+descodificador_bin2hex.isc
+descodificador_bin2hex.cmd_log
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hex.mfp
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hexII.mfp
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hexII.mfp
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hex.mfp
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hex.mfp
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hexII.mfp
+# XST (Creating Lso File) : 
+descodificador_bin2hexII.lso
+# xst flow : RunXST
+descodificador_bin2hexII.syr
+descodificador_bin2hexII.prj
+descodificador_bin2hexII.sprj
+descodificador_bin2hexII.ana
+descodificador_bin2hexII.stx
+descodificador_bin2hexII.cmd_log
+descodificador_bin2hexII.ngc
+descodificador_bin2hexII.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hexII.ngd
+descodificador_bin2hexII_ngdbuild.nav
+descodificador_bin2hexII.bld
+descodificador_bin2hexII.ucf.untf
+descodificador_bin2hexII.cmd_log
+# Implementation : Map
+descodificador_bin2hexII_map.ncd
+descodificador_bin2hexII.ngm
+descodificador_bin2hexII.pcf
+descodificador_bin2hexII.nc1
+descodificador_bin2hexII.mrp
+descodificador_bin2hexII_map.mrp
+descodificador_bin2hexII.mdf
+__projnav/map.log
+descodificador_bin2hexII.cmd_log
+MAP_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+descodificador_bin2hexII.twr
+descodificador_bin2hexII.twx
+descodificador_bin2hexII.tsi
+descodificador_bin2hexII.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+descodificador_bin2hexII.ncd
+descodificador_bin2hexII.par
+descodificador_bin2hexII.pad
+descodificador_bin2hexII_pad.txt
+descodificador_bin2hexII_pad.csv
+descodificador_bin2hexII.pad_txt
+descodificador_bin2hexII.dly
+reportgen.log
+descodificador_bin2hexII.xpi
+descodificador_bin2hexII.grf
+descodificador_bin2hexII.itr
+descodificador_bin2hexII_last_par.ncd
+__projnav/par.log
+descodificador_bin2hexII.placed_ncd_tracker
+descodificador_bin2hexII.routed_ncd_tracker
+descodificador_bin2hexII.cmd_log
+PAR_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Generate Programming File
+__projnav/descodificador_bin2hexII_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+descodificador_bin2hexII.ut
+# Generate Programming File
+descodificador_bin2hexII.bgn
+descodificador_bin2hexII.rbt
+descodificador_bin2hexII.ll
+descodificador_bin2hexII.msk
+descodificador_bin2hexII.drc
+descodificador_bin2hexII.nky
+descodificador_bin2hexII.bit
+descodificador_bin2hexII.bin
+descodificador_bin2hexII.isc
+descodificador_bin2hexII.cmd_log
+# Implmentation : View/Edit Placed Design (Floorplanner)
+__projnav/parFloorPlanner.rsp
+descodificador_bin2hexII.mfp
+# XST (Creating Lso File) : 
+descodificador_bin2hexII.lso
+# xst flow : RunXST
+descodificador_bin2hexII.syr
+descodificador_bin2hexII.prj
+descodificador_bin2hexII.sprj
+descodificador_bin2hexII.ana
+descodificador_bin2hexII.stx
+descodificador_bin2hexII.cmd_log
+descodificador_bin2hexII.ngc
+descodificador_bin2hexII.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\bin\descodificador_bin2hex/_ngo
+descodificador_bin2hexII.ngd
+descodificador_bin2hexII_ngdbuild.nav
+descodificador_bin2hexII.bld
+descodificador_bin2hexII.ucf.untf
+descodificador_bin2hexII.cmd_log
+# Implementation : Map
+descodificador_bin2hexII_map.ncd
+descodificador_bin2hexII.ngm
+descodificador_bin2hexII.pcf
+descodificador_bin2hexII.nc1
+descodificador_bin2hexII.mrp
+descodificador_bin2hexII_map.mrp
+descodificador_bin2hexII.mdf
+__projnav/map.log
+descodificador_bin2hexII.cmd_log
+MAP_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+descodificador_bin2hexII.twr
+descodificador_bin2hexII.twx
+descodificador_bin2hexII.tsi
+descodificador_bin2hexII.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+descodificador_bin2hexII.ncd
+descodificador_bin2hexII.par
+descodificador_bin2hexII.pad
+descodificador_bin2hexII_pad.txt
+descodificador_bin2hexII_pad.csv
+descodificador_bin2hexII.pad_txt
+descodificador_bin2hexII.dly
+reportgen.log
+descodificador_bin2hexII.xpi
+descodificador_bin2hexII.grf
+descodificador_bin2hexII.itr
+descodificador_bin2hexII_last_par.ncd
+__projnav/par.log
+descodificador_bin2hexII.placed_ncd_tracker
+descodificador_bin2hexII.routed_ncd_tracker
+descodificador_bin2hexII.cmd_log
+PAR_NO_GUIDE_FILE_CPF "descodificador_bin2hexII"
+# Generate Programming File
+__projnav/descodificador_bin2hexII_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+descodificador_bin2hexII.ut
+# Generate Programming File
+descodificador_bin2hexII.bgn
+descodificador_bin2hexII.rbt
+descodificador_bin2hexII.ll
+descodificador_bin2hexII.msk
+descodificador_bin2hexII.drc
+descodificador_bin2hexII.nky
+descodificador_bin2hexII.bit
+descodificador_bin2hexII.bin
+descodificador_bin2hexII.isc
+descodificador_bin2hexII.cmd_log

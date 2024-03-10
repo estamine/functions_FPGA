@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn __projnav/descodificador_bin2hex.xst -ofn descodificador_bin2hex.syr
+xst -intstyle ise -ifn __projnav/descodificador_bin2hex.xst -ofn descodificador_bin2hex.syr
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+ngdbuild -intstyle ise -dd c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf  -p xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o descodificador_bin2hex_map.ncd descodificador_bin2hex.ngd descodificador_bin2hex.pcf
+par -w -intstyle ise -ol std -t 1 descodificador_bin2hex_map.ncd descodificador_bin2hex.ncd descodificador_bin2hex.pcf
+trce -intstyle ise -e 3 -l 3 -xml descodificador_bin2hex descodificador_bin2hex.ncd -o descodificador_bin2hex.twr descodificador_bin2hex.pcf
+bitgen -intstyle ise -f descodificador_bin2hex.ut descodificador_bin2hex.ncd

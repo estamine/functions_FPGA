@@ -1,0 +1,3 @@
+# begin LFP file c:\xilinx\bin\descodificador_bin2hex\descodificador_bin2hex.lfp
+designfile descodificador_bin2hex.ngd
+INST "descodificador_bin2hex" COLOR=15  ;

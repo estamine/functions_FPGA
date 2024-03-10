@@ -1,0 +1,30 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT descodificador_bin2hex
+DESIGN descodificador_bin2hex
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s200
+DEVICETIME 0
+DEVPKG pq208
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Other
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL Verilog
+GENERATEDSIMULATIONMODELTIME 1174293506
+SOURCE descodificador_bin2hex.v
+SOURCE descodificador_bin2hexII.v
+DEPASSOC descodificador_bin2hex descodificador_bin2hex.ucf
+DEPASSOC descodificador_bin2hexII descodificador_bin2hexII.ucf
+[STATUS-ALL]
+descodificador_bin2hex.ncdFile=WARNINGS,1174298231
+descodificador_bin2hexII.ncdFile=WARNINGS,1174299620
+descodificador_bin2hexII.ngcFile=WARNINGS,1174299605
+[STRATEGY-LIST]
+Normal=True

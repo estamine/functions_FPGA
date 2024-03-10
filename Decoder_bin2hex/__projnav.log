@@ -1,0 +1,1888 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "HDL Converter".
+
+
+ERROR: No input file specified for the "HDL Converter" process.
+Please select an input file (ABEL or AHDL) from the property menu.
+(Right click on the "HDL Converter" process name and select 'Properties')
+Process "HDL Converter" did not complete due to error(s) reported by internal script.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Compile HDL Simulation Libraries".
+
+Process "Compile HDL Simulation Libraries" did not complete.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "HDL Converter".
+
+
+ERROR: No input file specified for the "HDL Converter" process.
+Please select an input file (ABEL or AHDL) from the property menu.
+(Right click on the "HDL Converter" process name and select 'Properties')
+Process "HDL Converter" did not complete due to error(s) reported by internal script.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Compile HDL Simulation Libraries".
+
+Process "Compile HDL Simulation Libraries" did not complete.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hexII.v"
+WARNING:HDLCompilers:301 - descodificador_bin2hexII.v line 22 Too many digits specified in hex constant
+Module <descodificador_bin2hexII> compiled
+No errors in compilation
+Analysis of file <descodificador_bin2hexII.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 11 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 11 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 14 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 14 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 17 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 17 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 20 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 20 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 23 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 23 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 26 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 26 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 29 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 29 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 32 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 32 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 35 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 35 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 38 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 38 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 41 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 41 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 44 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 44 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 47 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 47 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 50 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 50 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 53 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 53 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 56 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 56 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - descodificador_bin2hexII.v line 59 Reference to vector wire 'hexa' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - descodificador_bin2hexII.v line 59 Illegal left hand side of blocking assignment
+--> 
+
+Total memory usage is 45084 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hexII.v"
+Module <descodificador_bin2hexII> compiled
+No errors in compilation
+Analysis of file <descodificador_bin2hexII.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <descodificador_bin2hexII>.
+WARNING:Xst:883 - descodificador_bin2hexII.v line 17: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 20: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 23: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 26: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 29: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 32: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 35: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 38: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 41: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 44: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 47: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 50: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 53: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 56: Ignored duplicate item in case statement. 
+Module <descodificador_bin2hexII> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <descodificador_bin2hexII>.
+    Related source file is descodificador_bin2hexII.v.
+Unit <descodificador_bin2hexII> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <descodificador_bin2hexII> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block descodificador_bin2hexII, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       2  out of   2352     0%  
+ Number of 4 input LUTs:                 3  out of   4704     0%  
+ Number of bonded IOBs:                 12  out of    144     8%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.765ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hexII.ucf -p
+xc2s200-pq208-6 descodificador_bin2hexII.ngc descodificador_bin2hexII.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hexII.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hexII.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 35012 kilobytes
+
+Writing NGD file "descodificador_bin2hexII.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hexII.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hexII.ucf -p
+xc2s200-pq208-6 descodificador_bin2hexII.ngc descodificador_bin2hexII.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hexII.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hexII.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37060 kilobytes
+
+Writing NGD file "descodificador_bin2hexII.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hexII.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             3 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           2 out of  2,352    1%
+    Number of Slices containing only related logic:      2 out of      2  100%
+    Number of Slices containing unrelated logic:         0 out of      2    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         3 out of  4,704    1%
+   Number of bonded IOBs:            12 out of    140    8%
+
+Total equivalent gate count for design:  18
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  60 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "descodificador_bin2hexII_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module descodificador_bin2hexII . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ngd descodificador_bin2hexII.pcf
+Mapping Module descodificador_bin2hexII: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: descodificador_bin2hexII.pcf
+
+Loading device database for application Par from file
+"descodificador_bin2hexII_map.ncd".
+   "descodificador_bin2hexII" is an NCD, version 2.38, device xc2s200, package
+pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-12-13.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 140     8%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of SLICEs                    2 out of 2352    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98969b) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f8ef) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 18 unrouted;       REAL time: 2 secs 
+
+Phase 2: 18 unrouted;       REAL time: 2 secs 
+
+Phase 3: 5 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  48 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Mon Mar 19 09:46:55 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module descodificador_bin2hexII . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ncd descodificador_bin2hexII.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hex.v"
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 expecting ';', found 'output'
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 3 unexpected token: ','
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 5 unexpected token: 'always'
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'a' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'b' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'c' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'd' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'e' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'f' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'g' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - descodificador_bin2hex.v line 1 Port reference 'p' was not declared as input, inout or output
+Module <descodificador_bin2hex> compiled
+ERROR:HDLCompilers:26 - descodificador_bin2hex.v line 5 expecting 'endmodule', found '('
+Analysis of file <descodificador_bin2hex.prj> failed.
+--> 
+
+Total memory usage is 45084 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hex.v"
+Module <descodificador_bin2hex> compiled
+No errors in compilation
+Analysis of file <descodificador_bin2hex.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <descodificador_bin2hex>.
+Module <descodificador_bin2hex> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <descodificador_bin2hex>.
+    Related source file is descodificador_bin2hex.v.
+    Found 16x8-bit ROM for signal <$n0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <descodificador_bin2hex> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                             : 1
+ 16x8-bit ROM                      : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <descodificador_bin2hex> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block descodificador_bin2hex, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       4  out of   2352     0%  
+ Number of 4 input LUTs:                 8  out of   4704     0%  
+ Number of bonded IOBs:                 12  out of    144     8%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.873ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+ERROR:NgdBuild:755 - Line 4 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 5 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 6 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 7 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 8 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 9 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 10 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 11 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 12 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<4>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 13 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<5>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 14 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<6>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 15 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<7>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "descodificador_bin2hex.ucf".
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+ERROR:NgdBuild:755 - Line 4 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 5 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 6 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 7 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 8 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 9 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 10 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 11 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 12 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<4>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 13 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<5>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 14 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<6>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 15 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<7>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "descodificador_bin2hex.ucf".
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+ERROR:NgdBuild:755 - Line 4 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 5 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 6 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 7 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 8 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 9 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 10 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 11 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 12 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<4>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 13 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<5>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 14 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<6>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 15 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<7>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "descodificador_bin2hex.ucf".
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+ERROR:NgdBuild:755 - Line 4 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 5 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 6 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 7 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 8 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 9 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 10 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 11 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 12 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<4>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 13 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<5>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 14 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<6>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 15 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<7>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "descodificador_bin2hex.ucf".
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+ERROR:NgdBuild:755 - Line 4 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 5 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 6 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 7 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'bina<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 8 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<0>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 9 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<1>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 10 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<2>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 11 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<3>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 12 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<4>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 13 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<5>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 14 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<6>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:NgdBuild:755 - Line 15 in 'descodificador_bin2hex.ucf': Could not find
+   net(s) 'hexa<7>' in the design.  To suppress this error specify the correct
+   net name or remove the constraint.  The 'Ignore I\O constraints on Invalid
+   Object Names' property can also be set ( -aul switch for command line users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "descodificador_bin2hex.ucf".
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+ERROR: NGDBUILD failed
+Process "Translate" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 35012 kilobytes
+
+Writing NGD file "descodificador_bin2hex.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hex.ucf -p
+xc2s200-pq208-6 descodificador_bin2hex.ngc descodificador_bin2hex.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hex.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hex.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37060 kilobytes
+
+Writing NGD file "descodificador_bin2hex.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hex.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             8 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           4 out of  2,352    1%
+    Number of Slices containing only related logic:      4 out of      4  100%
+    Number of Slices containing unrelated logic:         0 out of      4    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         8 out of  4,704    1%
+   Number of bonded IOBs:            12 out of    140    8%
+
+Total equivalent gate count for design:  48
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  60 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "descodificador_bin2hex_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module descodificador_bin2hex . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o descodificador_bin2hex_map.ncd descodificador_bin2hex.ngd descodificador_bin2hex.pcf
+Mapping Module descodificador_bin2hex: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: descodificador_bin2hex.pcf
+
+Loading device database for application Par from file
+"descodificador_bin2hex_map.ncd".
+   "descodificador_bin2hex" is an NCD, version 2.38, device xc2s200, package
+pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-12-13.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 140     8%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of SLICEs                    4 out of 2352    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98969f) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:991b81) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file descodificador_bin2hex.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 39 unrouted;       REAL time: 0 secs 
+
+Phase 2: 39 unrouted;       REAL time: 0 secs 
+
+Phase 3: 9 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  49 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file descodificador_bin2hex.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Mon Mar 19 09:57:15 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module descodificador_bin2hex . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 descodificador_bin2hex_map.ncd descodificador_bin2hex.ncd descodificador_bin2hex.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hexII.v"
+Module <descodificador_bin2hexII> compiled
+No errors in compilation
+Analysis of file <descodificador_bin2hexII.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <descodificador_bin2hexII>.
+WARNING:Xst:883 - descodificador_bin2hexII.v line 17: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 20: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 23: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 26: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 29: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 32: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 35: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 38: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 41: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 44: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 47: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 50: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 53: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 56: Ignored duplicate item in case statement. 
+Module <descodificador_bin2hexII> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <descodificador_bin2hexII>.
+    Related source file is descodificador_bin2hexII.v.
+Unit <descodificador_bin2hexII> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <descodificador_bin2hexII> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block descodificador_bin2hexII, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       2  out of   2352     0%  
+ Number of 4 input LUTs:                 3  out of   4704     0%  
+ Number of bonded IOBs:                 12  out of    144     8%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.765ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hexII.ucf -p
+xc2s200-pq208-6 descodificador_bin2hexII.ngc descodificador_bin2hexII.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hexII.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hexII.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37060 kilobytes
+
+Writing NGD file "descodificador_bin2hexII.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hexII.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             3 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           2 out of  2,352    1%
+    Number of Slices containing only related logic:      2 out of      2  100%
+    Number of Slices containing unrelated logic:         0 out of      2    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         3 out of  4,704    1%
+   Number of bonded IOBs:            12 out of    140    8%
+
+Total equivalent gate count for design:  18
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  60 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "descodificador_bin2hexII_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module descodificador_bin2hexII . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ngd descodificador_bin2hexII.pcf
+Mapping Module descodificador_bin2hexII: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: descodificador_bin2hexII.pcf
+
+Loading device database for application Par from file
+"descodificador_bin2hexII_map.ncd".
+   "descodificador_bin2hexII" is an NCD, version 2.38, device xc2s200, package
+pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-12-13.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 140     8%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of SLICEs                    2 out of 2352    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98969b) REAL time: 2 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 2 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 2 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f8ef) REAL time: 2 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 2 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 2 secs 
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 18 unrouted;       REAL time: 2 secs 
+
+Phase 2: 18 unrouted;       REAL time: 2 secs 
+
+Phase 3: 5 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 2 secs 
+
+Peak Memory Usage:  48 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Mon Mar 19 10:09:45 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module descodificador_bin2hexII . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ncd descodificador_bin2hexII.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "descodificador_bin2hexII.v"
+Module <descodificador_bin2hexII> compiled
+No errors in compilation
+Analysis of file <descodificador_bin2hexII.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <descodificador_bin2hexII>.
+WARNING:Xst:883 - descodificador_bin2hexII.v line 17: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 20: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 23: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 26: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 29: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 32: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 35: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 38: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 41: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 44: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 47: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 50: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 53: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - descodificador_bin2hexII.v line 56: Ignored duplicate item in case statement. 
+Module <descodificador_bin2hexII> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <descodificador_bin2hexII>.
+    Related source file is descodificador_bin2hexII.v.
+Unit <descodificador_bin2hexII> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <descodificador_bin2hexII> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block descodificador_bin2hexII, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       2  out of   2352     0%  
+ Number of 4 input LUTs:                 3  out of   4704     0%  
+ Number of bonded IOBs:                 12  out of    144     8%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.765ns
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\xilinx\bin\descodificador_bin2hex/_ngo -uc descodificador_bin2hexII.ucf -p
+xc2s200-pq208-6 descodificador_bin2hexII.ngc descodificador_bin2hexII.ngd 
+
+Reading NGO file
+"c:/xilinx/bin/descodificador_bin2hex/descodificador_bin2hexII.ngc" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "descodificador_bin2hexII.ucf" ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37060 kilobytes
+
+Writing NGD file "descodificador_bin2hexII.ngd" ...
+
+Writing NGDBUILD log file "descodificador_bin2hexII.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             3 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           2 out of  2,352    1%
+    Number of Slices containing only related logic:      2 out of      2  100%
+    Number of Slices containing unrelated logic:         0 out of      2    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         3 out of  4,704    1%
+   Number of bonded IOBs:            12 out of    140    8%
+
+Total equivalent gate count for design:  18
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  60 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "descodificador_bin2hexII_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module descodificador_bin2hexII . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ngd descodificador_bin2hexII.pcf
+Mapping Module descodificador_bin2hexII: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: descodificador_bin2hexII.pcf
+
+Loading device database for application Par from file
+"descodificador_bin2hexII_map.ncd".
+   "descodificador_bin2hexII" is an NCD, version 2.38, device xc2s200, package
+pq208, speed -6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2003-12-13.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            12 out of 140     8%
+      Number of LOCed External IOBs   12 out of 12    100%
+
+   Number of SLICEs                    2 out of 2352    1%
+
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98969b) REAL time: 2 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 2 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 2 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98f8ef) REAL time: 2 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 2 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 2 secs 
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 1 secs 
+
+
+Phase 1: 18 unrouted;       REAL time: 2 secs 
+
+Phase 2: 18 unrouted;       REAL time: 2 secs 
+
+Phase 3: 5 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "par" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  48 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file descodificador_bin2hexII.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Mon Mar 19 10:20:24 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module descodificador_bin2hexII . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 descodificador_bin2hexII_map.ncd descodificador_bin2hexII.ncd descodificador_bin2hexII.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+

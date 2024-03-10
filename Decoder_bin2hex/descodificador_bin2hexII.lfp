@@ -1,0 +1,17 @@
+# begin LFP file c:\xilinx\bin\descodificador_bin2hex\descodificador_bin2hexII.lfp
+designfile descodificador_bin2hexII.ngd
+IO_GROUP "hexa" IO_GROUP="descodificador_bin2hexII" ;
+IO_GROUP "bina" IO_GROUP="descodificador_bin2hexII" ;
+INST "descodificador_bin2hexII" COLOR=15  ;
+NET "hexa<7>" IO_GROUP="hexa"  ;
+NET "hexa<6>" IO_GROUP="hexa"  ;
+NET "hexa<5>" IO_GROUP="hexa"  ;
+NET "hexa<4>" IO_GROUP="hexa"  ;
+NET "hexa<3>" IO_GROUP="hexa"  ;
+NET "hexa<2>" IO_GROUP="hexa"  ;
+NET "hexa<1>" IO_GROUP="hexa"  ;
+NET "hexa<0>" IO_GROUP="hexa"  ;
+NET "bina<3>" IO_GROUP="bina"  ;
+NET "bina<2>" IO_GROUP="bina"  ;
+NET "bina<1>" IO_GROUP="bina"  ;
+NET "bina<0>" IO_GROUP="bina"  ;
