@@ -1,0 +1,304 @@
+Release 9.1i - xst J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.27 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.27 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: Soma.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Soma.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Soma"
+Output Format                      : NGC
+Target Device                      : xc2s200-6-pq208
+
+---- Source Options
+Top Module Name                    : Soma
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Convert Tristates To Logic         : Yes
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Soma.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Soma.v" in library work
+Module <Soma> compiled
+No errors in compilation
+Analysis of file <"Soma.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Soma> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Soma>.
+Module <Soma> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Soma>.
+    Related source file is "Soma.v".
+WARNING:Xst:647 - Input <butSOMA> is never used.
+    Found 1-bit xor2 for signal <resSOMA<1>>.
+    Found 1-bit xor2 for signal <resSOMA<0>>.
+    Found 1-bit xor3 for signal <resSOMA_2$xor0000> created at line 39.
+    Found 1-bit xor3 for signal <resSOMA_3$xor0000> created at line 40.
+    Found 1-bit xor3 for signal <resSOMA_4$xor0000> created at line 41.
+    Found 1-bit xor3 for signal <resSOMA_5$xor0000> created at line 42.
+    Found 1-bit xor3 for signal <resSOMA_6$xor0000> created at line 43.
+    Found 1-bit xor3 for signal <resSOMA_7$xor0000> created at line 44.
+    Found 1-bit xor3 for signal <resSOMA_8$xor0000> created at line 45.
+    Summary:
+	inferred   8 Xor(s).
+Unit <Soma> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 9
+ 1-bit xor2                                            : 1
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file 'v200.nph' in environment O:\Xilinx ISE 9.1i.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 9
+ 1-bit xor2                                            : 1
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Soma> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Soma, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Soma.ngr
+Top Level Output File Name         : Soma
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 29
+
+Cell Usage :
+# BELS                             : 23
+#      LUT2                        : 1
+#      LUT3                        : 6
+#      LUT4                        : 13
+#      MUXF5                       : 3
+# IO Buffers                       : 27
+#      IBUF                        : 18
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                      11  out of   2352     0%  
+ Number of 4 input LUTs:                20  out of   4704     0%  
+ Number of IOs:                         29
+ Number of bonded IOBs:                 27  out of    140    19%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 17.446ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 105 / 9
+-------------------------------------------------------------------------
+Delay:               17.446ns (Levels of Logic = 8)
+  Source:            b<0> (PAD)
+  Destination:       resSOMA<8> (PAD)
+
+  Data Path: b<0> to resSOMA<8>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.776   1.332  b_0_IBUF (b_0_IBUF)
+     LUT3:I1->O            3   0.549   1.332  resSOMA_2_or000011 (N1)
+     LUT4:I2->O            3   0.549   1.332  resSOMA_4_or00001 (resSOMA_4_or0000)
+     MUXF5:S->O            3   0.824   1.332  resSOMA_6_or0000_f5 (resSOMA_6_or0000)
+     LUT3:I1->O            1   0.549   1.035  resSOMA_7_or00001 (resSOMA_7_or0000)
+     LUT4:I0->O            1   0.549   1.035  resSOMA_8_or0001_SW0 (N18)
+     LUT4:I3->O            1   0.549   1.035  resSOMA_8_or0001 (resSOMA_8_OBUF)
+     OBUF:I->O                 4.668          resSOMA_8_OBUF (resSOMA<8>)
+    ----------------------------------------
+    Total                     17.446ns (9.013ns logic, 8.433ns route)
+                                       (51.7% logic, 48.3% route)
+
+=========================================================================
+CPU : 5.75 / 6.11 s | Elapsed : 6.00 / 6.00 s
+ 
+--> 
+
+Total memory usage is 128340 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

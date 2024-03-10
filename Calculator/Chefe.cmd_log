@@ -1,0 +1,76 @@
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Chefe_map.ncd Chefe.ncd Chefe.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Chefe Chefe.ncd -o Chefe.twr Chefe.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Chefe.ut Chefe.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -uc "calculadoraverilog.ucf" -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+ngdbuild -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -uc "calculadoraverilog.ucf" -p xc2s200-pq208-6 "Chefe.ngc" Chefe.ngd
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "F:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr
+xst -ise "C:/ProjectoCalculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Chefe.xst -ofn Chefe.syr

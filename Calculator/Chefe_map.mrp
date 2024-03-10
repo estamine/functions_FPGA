@@ -1,0 +1,66 @@
+Release 9.1i Map J.30
+Xilinx Mapping Report File for Design 'Chefe'
+
+Design Information
+------------------
+Command Line   : O:\Xilinx ISE 9.1i\bin\nt\map.exe -ise C:/Documents and
+Settings/joel/Ambiente de trabalho/Projecto
+Calculadora/Calculadora/Calculadora.ise -intstyle ise -p xc2s200-pq208-6 -cm
+area -pr b -k 4 -c 100 -tx off -o Chefe_map.ncd Chefe.ngd Chefe.pcf 
+Target Device  : xc2s200
+Target Package : pq208
+Target Speed   : -6
+Mapper Version : spartan2 -- $Revision: 1.36 $
+Mapped Date    : Fri Apr 27 00:46:56 2007
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   2
+
+Section 1 - Errors
+------------------
+ERROR:Pack:198 - NCD was not produced. All logic was removed from design.  This
+   is usually due to having no input or output PAD connections in the design and
+   no nets or symbols marked as 'SAVE'.  You can either add PADs or 'SAVE'
+   attributes to the design, or run 'map -u' to disable logic trimming in the
+   mapper.
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network N4 has no load.
+WARNING:LIT:395 - The above warning message base_net_load_rule is repeated 12
+   more times for the following (max. 5 shown):
+   N5,
+   enter,
+   sinal,
+   butSOM,
+   clki
+   To see the details of these warning messages, please use the -detail switch.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) removed
+   2 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "N4" is loadless and has been removed.
+ Loadless block "XST_GND" (ZERO) removed.
+The signal "N5" is loadless and has been removed.
+ Loadless block "XST_VCC" (ONE) removed.

@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+Release 9.1i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+O:\Xilinx ISE 9.1i\bin\nt\trce.exe -ise
+C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise
+-intstyle ise -e 3 -s 6 -xml Soma Soma.ncd -o Soma.twr Soma.pcf
+
+Design file:              soma.ncd
+Physical constraint file: soma.pcf
+Device,package,speed:     xc2s200,pq208,-6 (PRODUCTION 1.27 2006-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |resSOMA<0>     |    8.453|
+a<0>           |resSOMA<1>     |    8.283|
+a<0>           |resSOMA<2>     |    9.831|
+a<0>           |resSOMA<3>     |    9.793|
+a<0>           |resSOMA<4>     |   14.084|
+a<0>           |resSOMA<5>     |   13.439|
+a<0>           |resSOMA<6>     |   16.634|
+a<0>           |resSOMA<7>     |   18.368|
+a<0>           |resSOMA<8>     |   19.167|
+a<1>           |resSOMA<1>     |    8.522|
+a<1>           |resSOMA<2>     |    9.574|
+a<1>           |resSOMA<3>     |    9.536|
+a<1>           |resSOMA<4>     |   13.827|
+a<1>           |resSOMA<5>     |   13.182|
+a<1>           |resSOMA<6>     |   16.377|
+a<1>           |resSOMA<7>     |   18.111|
+a<1>           |resSOMA<8>     |   18.910|
+a<2>           |resSOMA<2>     |    8.608|
+a<2>           |resSOMA<3>     |    8.518|
+a<2>           |resSOMA<4>     |   13.130|
+a<2>           |resSOMA<5>     |   12.485|
+a<2>           |resSOMA<6>     |   15.680|
+a<2>           |resSOMA<7>     |   17.414|
+a<2>           |resSOMA<8>     |   18.213|
+a<3>           |resSOMA<3>     |    9.772|
+a<3>           |resSOMA<4>     |    9.441|
+a<3>           |resSOMA<5>     |    9.327|
+a<3>           |resSOMA<6>     |   11.892|
+a<3>           |resSOMA<7>     |   13.626|
+a<3>           |resSOMA<8>     |   14.425|
+a<4>           |resSOMA<4>     |   10.079|
+a<4>           |resSOMA<5>     |    8.889|
+a<4>           |resSOMA<6>     |   12.079|
+a<4>           |resSOMA<7>     |   13.813|
+a<4>           |resSOMA<8>     |   14.612|
+a<5>           |resSOMA<5>     |    9.497|
+a<5>           |resSOMA<6>     |    9.233|
+a<5>           |resSOMA<7>     |   10.822|
+a<5>           |resSOMA<8>     |   11.679|
+a<6>           |resSOMA<6>     |    9.303|
+a<6>           |resSOMA<7>     |   11.158|
+a<6>           |resSOMA<8>     |    9.404|
+a<7>           |resSOMA<7>     |   10.180|
+a<7>           |resSOMA<8>     |    9.568|
+a<8>           |resSOMA<8>     |    9.810|
+b<0>           |resSOMA<0>     |    8.575|
+b<0>           |resSOMA<1>     |    8.424|
+b<0>           |resSOMA<2>     |    9.883|
+b<0>           |resSOMA<3>     |    9.845|
+b<0>           |resSOMA<4>     |   14.136|
+b<0>           |resSOMA<5>     |   13.491|
+b<0>           |resSOMA<6>     |   16.686|
+b<0>           |resSOMA<7>     |   18.420|
+b<0>           |resSOMA<8>     |   19.219|
+b<1>           |resSOMA<1>     |    8.216|
+b<1>           |resSOMA<2>     |    8.729|
+b<1>           |resSOMA<3>     |    8.944|
+b<1>           |resSOMA<4>     |   13.556|
+b<1>           |resSOMA<5>     |   12.911|
+b<1>           |resSOMA<6>     |   16.106|
+b<1>           |resSOMA<7>     |   17.840|
+b<1>           |resSOMA<8>     |   18.639|
+b<2>           |resSOMA<2>     |    8.791|
+b<2>           |resSOMA<3>     |    8.337|
+b<2>           |resSOMA<4>     |   13.243|
+b<2>           |resSOMA<5>     |   12.598|
+b<2>           |resSOMA<6>     |   15.793|
+b<2>           |resSOMA<7>     |   17.527|
+b<2>           |resSOMA<8>     |   18.326|
+b<3>           |resSOMA<3>     |    9.738|
+b<3>           |resSOMA<4>     |    9.735|
+b<3>           |resSOMA<5>     |    9.624|
+b<3>           |resSOMA<6>     |   12.228|
+b<3>           |resSOMA<7>     |   13.962|
+b<3>           |resSOMA<8>     |   14.761|
+b<4>           |resSOMA<4>     |    9.698|
+b<4>           |resSOMA<5>     |    8.490|
+b<4>           |resSOMA<6>     |   12.140|
+b<4>           |resSOMA<7>     |   13.874|
+b<4>           |resSOMA<8>     |   14.673|
+b<5>           |resSOMA<5>     |    9.878|
+b<5>           |resSOMA<6>     |    8.949|
+b<5>           |resSOMA<7>     |   10.676|
+b<5>           |resSOMA<8>     |   11.390|
+b<6>           |resSOMA<6>     |    9.560|
+b<6>           |resSOMA<7>     |   10.354|
+b<6>           |resSOMA<8>     |    9.931|
+b<7>           |resSOMA<7>     |    9.962|
+b<7>           |resSOMA<8>     |    8.823|
+b<8>           |resSOMA<8>     |    9.309|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Apr 22 15:40:30 2007
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 80 MB
+
+
+

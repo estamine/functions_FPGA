@@ -1,0 +1,27 @@
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Soma.ngc" Soma.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Soma_map.ncd Soma.ngd Soma.pcf
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Soma.ngc" Soma.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Soma_map.ncd Soma.ngd Soma.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Soma_map.ncd Soma.ncd Soma.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Soma Soma.ncd -o Soma.twr Soma.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Soma.ut Soma.ncd
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Soma.ngc" Soma.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Soma_map.ncd Soma.ngd Soma.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Soma_map.ncd Soma.ncd Soma.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Soma Soma.ncd -o Soma.twr Soma.pcf
+xst -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -ifn Soma.xst -ofn Soma.syr
+ngdbuild -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc2s200-pq208-6 "Soma.ngc" Soma.ngd
+map -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Soma_map.ncd Soma.ngd Soma.pcf
+par -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -w -intstyle ise -ol std -t 1 Soma_map.ncd Soma.ncd Soma.pcf
+trce -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -e 3 -s 6 -xml Soma Soma.ncd -o Soma.twr Soma.pcf
+bitgen -ise "C:/Documents and Settings/joel/Ambiente de trabalho/Projecto Calculadora/Calculadora/Calculadora.ise" -intstyle ise -f Soma.ut Soma.ncd

@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+Display instance_name (
+    .dspsom(dspsom), 
+    .dspsub(dspsub), 
+    .dspdiv(dspdiv), 
+    .dspmul(dspmul), 
+    .butDSPSOM(butDSPSOM), 
+    .butDSPSUB(butDSPSUB), 
+    .butDSPDIV(butDSPDIV), 
+    .butDSPMUL(butDSPMUL), 
+    .reset(reset), 
+    .relogio(relogio), 
+    .resDSP(resDSP)
+    );
+
+
