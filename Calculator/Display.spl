@@ -1,0 +1,17 @@
+[Inputs]
+butDSPSOM
+butDSPSUB
+butDSPDIV
+butDSPMUL
+reset
+relogio
+=dspsom[8:0]=
+=dspsub[8:0]=
+=dspdiv[8:0]=
+=dspmul[17:0]=
+[Outputs]
+=resDSP[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Display
+

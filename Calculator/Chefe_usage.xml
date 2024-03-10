@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="13">
+<DesignStatistics TimeStamp="Fri Apr 27 00:24:49 2007"><group name="NetStatistics">
+<item name="NumNets_Active" rev="13">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AVG_LUT_FAN_IN" rev="12">
+<attrib name="value" value="-1.000000"/></item>
+<item name="AVG_SIG_FANOUT" rev="12">
+<attrib name="value" value="-1.000000"/></item>
+<item name="PK_NUM_BONDED_IOBS" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="PK_NUM_JTAG_GATES" rev="12">
+<attrib name="value" value="1"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Fri Apr 27 00:24:49 2007"><group name="SiteSummary">
+<item name="IOB" rev="13">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_OUTBUF" rev="13">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_O_GROUND" rev="13">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_PAD" rev="13">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Fri Apr 27 00:24:49 2007"><group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="13">
+<attrib name="12" value="1"/></item>
+<item name="IOATTRBOX" rev="13">
+<attrib name="LVTTL" value="1"/></item>
+<item name="SLEW" rev="13">
+<attrib name="SLOW" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Fri Apr 27 00:24:49 2007"><group name="IOB_OUTBUF">
+<item name="IN" rev="13">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="13">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="13">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_O_GROUND">
+<item name="0" rev="13">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="PAD" rev="13">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>
