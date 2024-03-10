@@ -1,0 +1,453 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '<='
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '['
+Module <divide_freq> compiled
+ERROR:HDLCompilers:26 - divide_freq.v line 14 expecting 'endmodule', found '24'
+Analysis of file <divide_freq.prj> failed.
+--> 
+
+Total memory usage is 47600 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '<='
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '['
+Module <divide_freq> compiled
+ERROR:HDLCompilers:26 - divide_freq.v line 14 expecting 'endmodule', found '24'
+Analysis of file <divide_freq.prj> failed.
+--> 
+
+Total memory usage is 47600 kilobytes
+
+
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '<='
+ERROR:HDLCompilers:26 - divide_freq.v line 14 unexpected token: '['
+Module <divide_freq> compiled
+ERROR:HDLCompilers:26 - divide_freq.v line 14 expecting 'endmodule', found '24'
+Analysis of file <divide_freq.prj> failed.
+--> 
+
+Total memory usage is 47600 kilobytes
+
+
+ERROR: XST failed
+Process "View RTL Schematic" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "contador.v"
+Module <contador> compiled
+No errors in compilation
+Analysis of file <contador.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <contador>.
+ERROR:Xst:1884 - contador.v line 1: Module <contador> has no port.
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 49648 kilobytes
+
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "divide_freq.v"
+Module <divide_freq> compiled
+No errors in compilation
+Analysis of file <divide_freq.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <divide_freq>.
+Module <divide_freq> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <divide_freq>.
+    Related source file is divide_freq.v.
+    Found 1-bit register for signal <clko>.
+    Found 25-bit up counter for signal <conta>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <divide_freq> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 1
+ 25-bit up counter                 : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <divide_freq> ...
+Loading device for application Xst from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block divide_freq, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                      14  out of   2352     0%  
+ Number of Slice Flip Flops:            26  out of   4704     0%  
+ Number of 4 input LUTs:                25  out of   4704     0%  
+ Number of bonded IOBs:                  1  out of    144     0%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clki                               | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 5.423ns (Maximum Frequency: 184.400MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.788ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Completed process "Synthesize".
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\xilinx\jui_dividefreq/_ngo -i -p
+xc2s200-pq208-6 divide_freq.ngc divide_freq.ngd 
+
+Reading NGO file "C:/Xilinx/jui_dividefreq/divide_freq.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37312 kilobytes
+
+Writing NGD file "divide_freq.ngd" ...
+
+Writing NGDBUILD log file "divide_freq.bld"...
+
+NGDBUILD done.
+Completed process "Translate".
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Removing unused or disabled logic...
+Running cover...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:        25 out of  4,704    1%
+  Number of 4 input LUTs:             1 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                          13 out of  2,352    1%
+    Number of Slices containing only related logic:     13 out of     13  100%
+    Number of Slices containing unrelated logic:         0 out of     13    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:           25 out of  4,704    1%
+      Number used as logic:                         1
+      Number used as a route-thru:                 24
+   Number of bonded IOBs:             1 out of    140    1%
+      IOB Flip Flops:                               1
+   Number of GCLKs:                   1 out of      4   25%
+   Number of GCLKIOBs:                1 out of      4   25%
+
+Total equivalent gate count for design:  358
+Additional JTAG gate count for IOBs:  96
+Peak Memory Usage:  61 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Mapping completed.
+See MAP report file "divide_freq_map.mrp" for details.
+Completed process "Map".
+
+Mapping Module divide_freq . . .
+MAP command line:
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o divide_freq_map.ncd divide_freq.ngd divide_freq.pcf
+Mapping Module divide_freq: DONE
+
+
+
+Started process "Place & Route".
+
+
+
+
+
+Constraints file: divide_freq.pcf
+
+Loading device database for application Par from file "divide_freq_map.ncd".
+   "divide_freq" is an NCD, version 2.38, device xc2s200, package pq208, speed
+-6
+Loading device for application Par from file 'v200.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.27 2004-06-25.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External GCLKIOBs         1 out of 4      25%
+   Number of External IOBs             1 out of 140     1%
+      Number of LOCed External IOBs    0 out of 1       0%
+
+   Number of SLICEs                   13 out of 2352    1%
+
+   Number of GCLKs                     1 out of 4      25%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98968f) REAL time: 0 secs 
+
+Phase 2.23
+Phase 2.23 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+.
+Phase 5.8 (Checksum:98a813) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Writing design to file divide_freq.ncd.
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+
+Phase 1: 55 unrouted;       REAL time: 0 secs 
+
+Phase 2: 41 unrouted;       REAL time: 0 secs 
+
+Phase 3: 0 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++----------------------------+----------+--------+------------+-------------+
+|         Clock Net          | Resource | Fanout |Net Skew(ns)|Max Delay(ns)|
++----------------------------+----------+--------+------------+-------------+
+|        clki_BUFGP          |  Global  |   14   |  0.114     |  0.532      |
++----------------------------+----------+--------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  52 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file divide_freq.ncd.
+
+
+PAR done.
+Completed process "Place & Route".
+
+
+Started process "Generate Post-Place & Route Static Timing".
+
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+WARNING:SpeedCalc:42 - Cannot find referenced model "bel_d_min_period".  This
+   generally indicates that there is an inconsistency between versions of the
+   speed and device data files.  Please check to ensure that the XILINX
+   environment variable is set correctly, if the MYXILINX variable is set, make
+   sure that it is pointing to patch files that are compatable with the version
+   of software that the XILINX variable points to.
+
+Analysis completed Sun Feb 25 08:25:31 2007
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Completed process "Generate Post-Place & Route Static Timing".
+
+Place & Route Module divide_freq . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 divide_freq_map.ncd divide_freq.ncd divide_freq.pcf
+PAR completed successfully
+
+
+
+
+Started process "Generate Programming File".
+
+Completed process "Generate Programming File".
+
+

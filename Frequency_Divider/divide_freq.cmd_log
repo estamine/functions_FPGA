@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn __projnav/divide_freq.xst -ofn divide_freq.syr
+xst -intstyle ise -ifn __projnav/divide_freq.xst -ofn divide_freq.syr
+xst -intstyle ise -ifn __projnav/divide_freq.xst -ofn divide_freq.syr
+ngdbuild -intstyle ise -dd c:\xilinx\jui_dividefreq/_ngo -i  -p xc2s200-pq208-6 divide_freq.ngc divide_freq.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o divide_freq_map.ncd divide_freq.ngd divide_freq.pcf
+par -w -intstyle ise -ol std -t 1 divide_freq_map.ncd divide_freq.ncd divide_freq.pcf
+trce -intstyle ise -e 3 -l 3 -xml divide_freq divide_freq.ncd -o divide_freq.twr divide_freq.pcf
+bitgen -intstyle ise -f divide_freq.ut divide_freq.ncd

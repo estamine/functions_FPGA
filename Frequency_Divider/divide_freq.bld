@@ -1,0 +1,21 @@
+Release 6.3.01i - ngdbuild G.36
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd c:\xilinx\jui_dividefreq/_ngo -i -p
+xc2s200-pq208-6 divide_freq.ngc divide_freq.ngd 
+
+Reading NGO file "C:/Xilinx/jui_dividefreq/divide_freq.ngc" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 37312 kilobytes
+
+Writing NGD file "divide_freq.ngd" ...
+
+Writing NGDBUILD log file "divide_freq.bld"...

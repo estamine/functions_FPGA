@@ -1,0 +1,32 @@
+JDF H
+// Converted from an earlier version by Project Navigator
+PROJECT dividefreq
+DESIGN dividefreq
+DEVFAM spartan2
+DEVFAMTIME 0
+DEVICE xc2s200
+DEVICETIME 0
+DEVPKG pq208
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR ISE Simulator
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL Verilog
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE divide_freq.v
+SOURCE contador.v
+SOURCE .\remote_sources\descodificador_bin2hexII.v
+[STATUS-ALL]
+divide_freq.ncdFile=WARNINGS,1172420729
+[STRATEGY-LIST]
+Normal=True
+[Normal]
+p_xstHierarchySeparator=xstvlg, spartan2, VHDL.t_synthesize, 1177270400, _
+p_xstTristate2Logic=xstvlg, virtex, VHDL.t_synthesize, 1177270400, Yes
+_SynthUseFsmExplorerData=synprovhd, virtex, VHDL.t_synthesize, 1177270400, TRUE
+_SynthPipelining=synprovhd, virtex, VHDL.t_synthesize, 1177270400, TRUE

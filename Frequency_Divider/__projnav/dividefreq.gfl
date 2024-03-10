@@ -1,0 +1,100 @@
+# XST (Creating Lso File) : 
+divide_freq.lso
+# xst flow : RunXST
+divide_freq.syr
+divide_freq.prj
+divide_freq.sprj
+divide_freq.ana
+divide_freq.stx
+divide_freq.cmd_log
+# Check Syntax
+divide_freq.stx
+# xst flow : RunXST
+divide_freq.syr
+divide_freq.prj
+divide_freq.sprj
+divide_freq.ana
+divide_freq.stx
+divide_freq.cmd_log
+# XST (Creating Lso File) : 
+contador.lso
+# xst flow : RunXST
+contador.syr
+contador.prj
+contador.sprj
+contador.ana
+contador.stx
+contador.cmd_log
+# XST (Creating Lso File) : 
+divide_freq.lso
+# xst flow : RunXST
+divide_freq.syr
+divide_freq.prj
+divide_freq.sprj
+divide_freq.ana
+divide_freq.stx
+divide_freq.cmd_log
+divide_freq.ngc
+divide_freq.ngr
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+c:\xilinx\jui_dividefreq/_ngo
+divide_freq.ngd
+divide_freq_ngdbuild.nav
+divide_freq.bld
+.untf
+divide_freq.cmd_log
+# Implementation : Map
+divide_freq_map.ncd
+divide_freq.ngm
+divide_freq.pcf
+divide_freq.nc1
+divide_freq.mrp
+divide_freq_map.mrp
+divide_freq.mdf
+__projnav/map.log
+divide_freq.cmd_log
+MAP_NO_GUIDE_FILE_CPF "divide_freq"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+divide_freq.twr
+divide_freq.twx
+divide_freq.tsi
+divide_freq.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+divide_freq.ncd
+divide_freq.par
+divide_freq.pad
+divide_freq_pad.txt
+divide_freq_pad.csv
+divide_freq.pad_txt
+divide_freq.dly
+reportgen.log
+divide_freq.xpi
+divide_freq.grf
+divide_freq.itr
+divide_freq_last_par.ncd
+__projnav/par.log
+divide_freq.placed_ncd_tracker
+divide_freq.routed_ncd_tracker
+divide_freq.cmd_log
+PAR_NO_GUIDE_FILE_CPF "divide_freq"
+# Generate Programming File
+__projnav/divide_freq_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+divide_freq.ut
+# Generate Programming File
+divide_freq.bgn
+divide_freq.rbt
+divide_freq.ll
+divide_freq.msk
+divide_freq.drc
+divide_freq.nky
+divide_freq.bit
+divide_freq.bin
+divide_freq.isc
+divide_freq.cmd_log

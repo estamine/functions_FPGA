@@ -1,0 +1,27 @@
+# XST flow : Creating project file
+divide_freq.prj
+# xst flow : RunXST
+divide_freq.prj
+__projnav/divide_freq.xst
+./xst
+# xst flow : Check Syntax
+divide_freq.sprj
+__projnav/xst_sprjTOstx_tcl.rsp
+__projnav/divide_freq.xst
+xst
+# xst flow : RunXST
+divide_freq.prj
+__projnav/divide_freq.xst
+./xst
+# XST flow : Creating project file
+contador.prj
+# xst flow : RunXST
+contador.prj
+__projnav/contador.xst
+./xst
+# XST flow : Creating project file
+divide_freq.prj
+# xst flow : RunXST
+divide_freq.prj
+__projnav/divide_freq.xst
+./xst
